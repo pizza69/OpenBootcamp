@@ -14,19 +14,25 @@ public class Main {
 
         //While
         int numeroWhile = 0;
+
         while (numeroWhile<3) {
             numeroWhile = numeroWhile + 1;
             System.out.println(numeroWhile);
         }
 
+        //DoWhile
+
         do {
             System.out.println(numeroWhile);
         } while (numeroWhile < 3) ;
+
+        //For
 
         for (int numeroFor = 0;numeroFor <= 3;numeroFor ++) {
             System.out.println(numeroFor);
         }
 
+        //Switch
         var estacion = "Invierno";
 
         switch (estacion) {
