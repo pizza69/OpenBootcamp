@@ -33,7 +33,7 @@ public class Main {
         }
 
         //Switch
-        var estacion = "Invierno";
+        String estacion = "Invierno";
 
         switch (estacion) {
             case "Verano":
